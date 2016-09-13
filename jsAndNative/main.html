@@ -1,0 +1,32 @@
+
+<html>
+    <head>
+        <meta name="HandheldFriendly" content="true" />
+        <title>
+            这是什么呢
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"
+        />
+    </head>
+    <body>
+        <button type="button"  onclick="JSCallOc1()">JS调用OC方法(传参 1---1)</button>
+        <button type="button"  onclick="JSCallOc2()">JS调用OC方法(传参) 2---2  </button>
+
+           <script type="text/javascript">
+               //f//unction test(){
+               function JSCallOc1(){
+                   Wxpayment('张三','李四');
+               }
+           function  JSCallOc2(){
+           
+           hello(1000,19.9);
+           }
+           function test(){
+               alert('张三');
+               JSCallOc1();
+           }
+            </script>
+            </body>
+    
+</html>
